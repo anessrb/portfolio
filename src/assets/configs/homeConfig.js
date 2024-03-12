@@ -9,17 +9,15 @@ const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            Hi! I'm <strong className="main-name"> Aness Rabia</strong>
         </h1>,
     titles: [
         "A Data Scientist",
-        "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Colombian"
+        "A data analyst",
+        "A Moroccan Italian"
     ],
     about: {
-        start: "I've been working for over seven years on data science projects. " +
+        start: "I'm a student in the first year of computers science's master in University of Montpellier and i'v been working lately on many data science projects. " +
             "I'm excited by learning new things, contributing to the data science community," +
             " and spreading the word of data!",
         exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
@@ -28,52 +26,23 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
+            title: "Master Software Engineer",
+            company: "University of Montpellier",
+            description: "I am currently pursuing a Master's degree in Software Engineering, focusing on advanced topics such as web development, mobile application development, big data analytics, data analysis, and machine learning.",
             date: "2023-Present",
             icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
+            tags: ["Java", "Data", "python", "SQL," ,"Big Data", "Machine Learning", "Web Services", "R", "Javascript"]
         },
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
+            title: "Bachelor Computer Science",
+            company: "University of Montpellier",
+            description: "I completed a Bachelor's degree in Computer Science, covering topics such as Object-Oriented Modeling and Programming, Information Systems and Databases, Web Programming, Propositional Logic, Systems, Arithmetic, Algorithms, IP Protocols and Communications, Linear Algebra, Matrix Calculus, Project Development, Formal and Scientific Computing, Software Engineering Workshops, First-order Logic, Formal Languages, and Multimedia Data Analysis.",
+            date: "2020-2023",
             icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            tags: ["Java", "Coq", "python", "Devops", "C/C++", "SQL"]
         },
-        {
-            id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
-        },
-        {
-            id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
-        },
-        {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
-        }
+       
     ]
 }
 
